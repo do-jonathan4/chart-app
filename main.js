@@ -24,7 +24,7 @@ checkBox.addEventListener("click", () => {
   } else if (checkBox.innerText === "Maintained") {
     checkBox.innerText = "Recieved";
     addComments.innerHTML =
-      "Bilateral clear BS. Normal breathing pattern noted. No respiratory distress noted. No SOB noted. No desaturation noted. Resident appears to be comfortable in bed. Alarms on and audible. Vital signs are within normal range";
+      "Bilateral clear BS. Normal breathing pattern noted. No respiratory distress noted. No SOB noted. No desaturation noted. Resident appears to be comfortable in bed. Alarms on and audible. Vital signs are within normal range.";
   }
 });
 
@@ -39,7 +39,6 @@ generate.addEventListener("click", () => {
 });
 
 copy.addEventListener("click", () => {
-  // txt.select();
   navigator.clipboard.writeText(txt.textContent);
-  alert("Copied");
+  alert("Copied text");
 });
