@@ -1,3 +1,4 @@
-# med-charter
 # chart-app
-# chart-app
+
+### [Live](https://do-jonathan4.github.io/chart-app/)
+
