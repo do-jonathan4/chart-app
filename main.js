@@ -29,12 +29,6 @@ checkBox.addEventListener("click", () => {
 });
 
 generate.addEventListener("click", () => {
-  if (mode.value === "") return;
-  if (rate.value === "") return;
-  if (vol.value === "") return;
-  if (peep.value === "") return;
-  if (ps.value === "") return;
-  if (o2.value === "") return;
   txt.textContent = `${date} ${time}. ${checkBox.innerText} resident on ${mode.value} ${rate.value} ${vol.value} +${ps.value} ${o2.value}LPM. ${addComments.value}.`;
 });
 
